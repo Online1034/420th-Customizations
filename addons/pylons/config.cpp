@@ -1614,6 +1614,11 @@ class CfgVehicles {
                 };
             };
         };
+        class pilotCamera {
+            maxTurn = 160;
+            minTurn = -160;
+            maxElev = 120;
+        };        
     };
     class VTOL_02_base_F;
     class VTOL_02_infantry_base_F : VTOL_02_base_F {
