@@ -1,3 +1,4 @@
+// https://community.bistudio.com/wiki/Arma_3:_Vehicle_in_Vehicle_Transport
 #define VIV_ENABLED \
     class VehicleTransport { \
         class Cargo { \
