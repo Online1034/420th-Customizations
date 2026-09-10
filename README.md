@@ -57,6 +57,13 @@ unless loaded as a required mod with [verifySignatures = 2](https://community.bi
 | ----------------------- | --------:| ---:| ------:|
 | First Aid Backpack      |      280 | 320 |  1.14x |
 
+### Expeditionary Forces
+
+| Item                    | Original  | New | Ratio    |
+| ----------------------- | ---------:| ---:| --------:|
+| Amphibious Assualt Vest | 40/80/140 | 300 | 2.1-7.5x |
+| Commando Chest Rig      |       140 | 300 |     2.1x |
+
 ### Reaction Forces
 
 | Item                    | Original | New | Ratio  |
