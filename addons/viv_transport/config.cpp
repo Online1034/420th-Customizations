@@ -46,7 +46,15 @@ class CfgVehicles {
         VIV_ENABLED
     };
     class APC_Wheeled_02_base_F: Wheeled_APC_F {
-        VIV_ENABLED
+        class VehicleTransport {
+            class Cargo {
+                parachuteClass       = "B_Parachute_02_F";
+                parachuteHeightLimit = 10;
+                canBeTransported     = 1;
+                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};
+                rotation             = -90; // Slightly better than sticking out to the side
+            };
+        };
     };
     class APC_Wheeled_03_base_F: Wheeled_APC_F {
         VIV_ENABLED
