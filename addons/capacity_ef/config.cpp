@@ -17,6 +17,9 @@ class CfgPatches {
 
 class CfgWeapons {
     class ItemCore;
+    class Vest_Camo_Base: ItemCore {
+        class ItemInfo;
+    };
     class Vest_NoCamo_Base: ItemCore {
         class ItemInfo;
     };
@@ -60,7 +63,7 @@ class CfgWeapons {
             containerClass = "Supply300"; // 140
         };
     };
-    class EF_V_CCR_Rifleman_Coy: Vest_NoCamo_Base {
+    class EF_V_CCR_Rifleman_Coy: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
             containerClass = "Supply300"; // 140
         };
