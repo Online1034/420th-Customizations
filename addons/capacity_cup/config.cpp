@@ -1,5 +1,5 @@
 class CfgPatches {
-    class fdelta_cup_weapons {
+    class fdelta_capacity_cup {
         name = "420th Customizations - CUP Weapons";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
