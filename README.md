@@ -22,6 +22,7 @@ unless loaded as a required mod with [verifySignatures = 2](https://community.bi
 - Allow DAGR missiles to lock and fire on slow-moving aircraft
 - Add 4x zoom levels and 1km zeroing for ARCO, ERCO, MRCO, and RCO optics
 - Improve effectiveness of some vanilla HE munitions against infantry
+- Increase gimbal limits of A-164 Gryphon targeting pod
 - Fix [A3TI] incompatibility with thermal-capable MH-80 Camera Pods
 - Fix A3TI causing units/vehicles to appear pink when changing cameras
 - Fix MH-80 DAP ECM Pods (DIRCM variants) not detecting some IR missiles
