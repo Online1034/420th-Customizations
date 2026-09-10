@@ -16,9 +16,12 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-    class VTOL_Base_F;
-    class VTOL_01_base_F: VTOL_Base_F {};
-    class VTOL_01_unarmed_base_F: VTOL_01_base_F {};
+    class MRAP_01_base_F;
+    class MRAP_02_base_F;
+    class Tank_F;
+    class VTOL_01_unarmed_base_F;
+    class Wheeled_APC_F;
+
     class VTOL_01_vehicle_base_F: VTOL_01_unarmed_base_F {
         class VehicleTransport {
             class Carrier {
@@ -27,8 +30,6 @@ class CfgVehicles {
         };
     };
 
-    class Car_F;
-    class MRAP_01_base_F: Car_F {};
     class MRAP_01_gmg_base_F: MRAP_01_base_F {
         class VehicleTransport {
             class Cargo {
@@ -39,7 +40,6 @@ class CfgVehicles {
             };
         };
     };
-    class MRAP_02_base_F: Car_F {};
     class MRAP_02_hmg_base_F: MRAP_02_base_F {
         class VehicleTransport {
             class Cargo {
@@ -50,7 +50,6 @@ class CfgVehicles {
             };
         };
     };
-    class Wheeled_APC_F: Car_F {};
     class APC_Wheeled_02_base_F: Wheeled_APC_F {
         class VehicleTransport {
             class Cargo {
@@ -71,7 +70,6 @@ class CfgVehicles {
             };
         };
     };
-    class Tank_F;
     class APC_Tracked_01_base_F: Tank_F {
         class VehicleTransport {
             class Cargo {
