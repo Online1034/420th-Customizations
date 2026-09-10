@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_jca {
-        name = "420th Customizations - Expeditionary Forces Compatibility";
+        name = "420th Customizations - Magazine Compatibility - JCA Infantry Arsenal";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

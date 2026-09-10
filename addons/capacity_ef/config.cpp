@@ -1,6 +1,6 @@
 class CfgPatches {
     class fdelta_capacity_ef {
-        name = "420th Customizations - Expeditionary Forces Compatibility";
+        name = "420th Customizations - Capacity Tweaks - Expeditionary Forces";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

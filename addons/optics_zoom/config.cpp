@@ -1,6 +1,6 @@
 class CfgPatches {
     class fdelta_optics_zoom {
-        name = "420th Customizations - Enhanced Optics Magnification";
+        name = "420th Customizations - Enhanced Optics Magnification - Vanilla";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

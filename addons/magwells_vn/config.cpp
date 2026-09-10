@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_vn {
-        name = "420th Customizations - SOG Weapons Compatibility";
+        name = "420th Customizations - Magazine Compatibility - SOG Prairie Fire";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

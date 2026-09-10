@@ -1,6 +1,6 @@
 class CfgPatches {
     class fdelta_pylons {
-        name = "420th Customizations - Pylons Compatibility";
+        name = "420th Customizations - Pylons Compatibility - Vanilla";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

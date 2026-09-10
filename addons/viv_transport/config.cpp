@@ -11,7 +11,7 @@
 
 class CfgPatches {
     class fdelta_viv_transport {
-        name = "420th Customizations - Vehicle-in-Vehicle Transport Expansion";
+        name = "420th Customizations - Vehicle-in-Vehicle Transport - Vanilla";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

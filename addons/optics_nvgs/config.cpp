@@ -1,6 +1,6 @@
 class CfgPatches {
     class fdelta_optics_nvgs {
-        name = "420th Customizations - Optics NVGs Compatibility";
+        name = "420th Customizations - Optics HMD Compatibility - Vanilla";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

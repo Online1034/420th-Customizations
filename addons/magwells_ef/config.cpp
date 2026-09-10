@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_ef {
-        name = "420th Customizations - Expeditionary Forces Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Expeditionary Forces";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

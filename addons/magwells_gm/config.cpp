@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_gm {
-        name = "420th Customizations - Global Mobilization Weapons Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Global Mobilization";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

@@ -1,6 +1,6 @@
 class CfgPatches {
     class fdelta_optics_rhsusf {
-        name = "420th Customizations - RHSUSAF Optics Compatibility";
+        name = "420th Customizations - Optics Tweaks - RHSUSAF";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

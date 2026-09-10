@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells {
-        name = "420th Customizations - Magazine Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Vanilla (and CBA)";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

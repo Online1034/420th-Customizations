@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_guidance {
-        name = "420th Customizations - Ammunition Guidance Tweaks";
+        name = "420th Customizations - Guidance Tweaks - Vanilla";
         author = "zobri, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

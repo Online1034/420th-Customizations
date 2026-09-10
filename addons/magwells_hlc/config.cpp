@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_hlc {
-        name = "420th Customizations - NIArms Weapons Compatibility";
+        name = "420th Customizations - Magazine Compatibility - NIArms";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

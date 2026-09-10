@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_rf {
-        name = "420th Customizations - Reaction Forces Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Reaction Forces";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 

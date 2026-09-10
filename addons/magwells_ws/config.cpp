@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class fdelta_magwells_ws {
-        name = "420th Customizations - Western Sahara Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Western Sahara";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
