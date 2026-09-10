@@ -25,8 +25,7 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-    class MRAP_01_base_F;
-    class MRAP_02_base_F;
+    class Car_F;
     class Tank_F;
     class VTOL_01_unarmed_base_F;
     class Wheeled_APC_F;
@@ -39,10 +38,10 @@ class CfgVehicles {
         };
     };
 
-    class MRAP_01_gmg_base_F: MRAP_01_base_F {
+    class MRAP_01_base_F: Car_F {
         VIV_ENABLED
     };
-    class MRAP_02_hmg_base_F: MRAP_02_base_F {
+    class MRAP_02_base_F: Car_F {
         VIV_ENABLED
     };
     class APC_Wheeled_02_base_F: Wheeled_APC_F {
