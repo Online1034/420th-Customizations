@@ -1,3 +1,12 @@
+#define VIV_ENABLED \
+    class VehicleTransport { \
+        class Cargo { \
+            parachuteClass       = "B_Parachute_02_F";             \
+            parachuteHeightLimit = 10;                             \
+            canBeTransported     = 1;                              \
+            dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"}; \
+        }; \
+    };
 
 class CfgPatches {
     class fdelta_viv_transport {
@@ -31,113 +40,36 @@ class CfgVehicles {
     };
 
     class MRAP_01_gmg_base_F: MRAP_01_base_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class MRAP_02_hmg_base_F: MRAP_02_base_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class APC_Wheeled_02_base_F: Wheeled_APC_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class APC_Wheeled_03_base_F: Wheeled_APC_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class APC_Tracked_01_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class APC_Tracked_02_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class APC_Tracked_03_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class MBT_01_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class MBT_02_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class MBT_03_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
     class MBT_04_base_F: Tank_F {
-        class VehicleTransport {
-            class Cargo {
-                parachuteClass       = "B_Parachute_02_F";              // type of parachute used when dropped in air. When empty then parachute is not used.
-                parachuteHeightLimit = 10;                              // minimal height above terrain when parachute is used.
-                canBeTransported     = 1;                               // 0 (false) / 1 (true)
-                dimensions[]         = {"BBox_1_1_pos","Mirror_R_BR"};  // memory point-based override of automatic bounding box
-            };
-        };
+        VIV_ENABLED
     };
 };
