@@ -8,7 +8,7 @@ class CfgPatches {
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
         };
-        skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 0;
         skipWhenAnyAddonPresent[] = {
             "A3RO_A3", // Conflicts with A3RO - Arma 3 Realism Overhaul
         };

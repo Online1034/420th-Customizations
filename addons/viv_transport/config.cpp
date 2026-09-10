@@ -19,7 +19,7 @@ class CfgPatches {
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
         };
-        skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 0;
 
         units[] = {};
     };

@@ -8,7 +8,7 @@ class CfgPatches {
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
         };
-        skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 0;
         skipWhenAnyAddonPresent[] = {
             // This addon is derived from JCA - QOL Essentials V2 with permission:
             // https://steamcommunity.com/sharedfiles/filedetails/?id=3032405142
