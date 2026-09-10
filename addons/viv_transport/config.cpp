@@ -1,6 +1,6 @@
 
 class CfgPatches {
-    class fdelta_magwells_ef {
+    class fdelta_viv_transport {
         name = "420th Customizations - Vehicle in Vehicle expansion";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
