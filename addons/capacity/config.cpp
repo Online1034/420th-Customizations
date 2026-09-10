@@ -9,6 +9,8 @@ class CfgPatches {
             "A3_Data_F_Decade_Loadorder",
         };
         skipWhenMissingDependencies = 0;
+
+        units[] = {};
     };
 };
 
