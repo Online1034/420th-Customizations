@@ -8,9 +8,9 @@ class CfgPatches {
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
             "fdelta_magwells",
-            "fdelta_main",
             "Sounds_F_JCA_IA",
         };
         skipWhenMissingDependencies = 1;

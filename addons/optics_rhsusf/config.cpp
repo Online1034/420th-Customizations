@@ -6,7 +6,7 @@ class CfgPatches {
 
         requiredVersion = 2.22;
         requiredAddons[] = {
-            "fdelta_main",
+            "A3_Data_F_Decade_Loadorder",
             "rhsusf_c_weapons",
         };
         skipWhenMissingDependencies = 1;

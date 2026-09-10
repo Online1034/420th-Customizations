@@ -8,8 +8,8 @@ class CfgPatches {
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "fdelta_magwells",
-            "fdelta_main",
             "gm_weapons_rifles_g11",
             "gm_weapons_rifles_hk33",
             "gm_weapons_rifles_sg550",

@@ -8,9 +8,9 @@ class CfgPatches {
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
             "fdelta_magwells",
-            "fdelta_main",
             "Weapons_F_lxWS_Rifles",
         };
         skipWhenMissingDependencies = 1;

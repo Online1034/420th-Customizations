@@ -8,8 +8,8 @@ class CfgPatches {
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "fdelta_magwells",
-            "fdelta_main",
             "hlcweapons_core",
             "hlcweapons_SCAR",
             "hlcweapons_XM8",
