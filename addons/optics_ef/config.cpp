@@ -1,13 +1,13 @@
 class CfgPatches {
-    class fdelta_optics_rhsusf {
-        name = "420th Customizations - Optics Tweaks - RHSUSAF";
+    class fdelta_optics_ef {
+        name = "420th Customizations - Optics Tweaks - Expeditionary Forces";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
-            "rhsusf_c_weapons",
+            "EF_Weapons",
         };
         skipWhenMissingDependencies = 1;
 
@@ -18,11 +18,10 @@ class CfgPatches {
 class CfgWeapons {
     class InventoryOpticsItem_Base_F;
     class ItemCore;
-    class rhsusf_acc_g33_xps3 : ItemCore {
-        class ItemInfo : InventoryOpticsItem_Base_F {
+    class ef_optic_mbs: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
-                class MAG {
-                    opticsDisablePeripherialVision = 0;
+                class MBSScope {
                     visionMode[] = {};
                 };
             };

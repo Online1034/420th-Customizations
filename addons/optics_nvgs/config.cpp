@@ -1,14 +1,14 @@
 class CfgPatches {
     class fdelta_optics_nvgs {
-        name = "420th Customizations - Optics NVGs Compatibility";
+        name = "420th Customizations - Optics HMD Compatibility - Vanilla";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
-            "fdelta_main",
+            "A3_Data_F_Decade_Loadorder",
         };
-        skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 0;
         skipWhenAnyAddonPresent[] = {
             // This addon is derived from JCA - QOL Essentials V2 with permission:
             // https://steamcommunity.com/sharedfiles/filedetails/?id=3032405142

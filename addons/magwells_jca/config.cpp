@@ -2,15 +2,15 @@
 
 class CfgPatches {
     class fdelta_magwells_jca {
-        name = "420th Customizations - Expeditionary Forces Compatibility";
+        name = "420th Customizations - Magazine Compatibility - JCA Infantry Arsenal";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
             "fdelta_magwells",
-            "fdelta_main",
             "Sounds_F_JCA_IA",
         };
         skipWhenMissingDependencies = 1;

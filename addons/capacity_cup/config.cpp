@@ -1,13 +1,13 @@
 class CfgPatches {
-    class fdelta_cup_weapons {
-        name = "420th Customizations - CUP Weapons";
+    class fdelta_capacity_cup {
+        name = "420th Customizations - Capacity Tweaks - CUP Weapons";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "CUP_Weapons_Backpacks",
-            "fdelta_main",
         };
         skipWhenMissingDependencies = 1;
 

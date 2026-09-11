@@ -2,15 +2,15 @@
 
 class CfgPatches {
     class fdelta_magwells_vn {
-        name = "420th Customizations - SOG Weapons Compatibility";
+        name = "420th Customizations - Magazine Compatibility - SOG Prairie Fire";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
             "fdelta_magwells",
-            "fdelta_main",
             "weapons_f_vietnam_c",
             "weapons_f_vietnam_03_c",
             "weapons_f_vietnam_04_c",

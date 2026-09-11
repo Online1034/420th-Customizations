@@ -2,14 +2,14 @@
 
 class CfgPatches {
     class fdelta_magwells_gm {
-        name = "420th Customizations - Global Mobilization Weapons Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Global Mobilization";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "fdelta_magwells",
-            "fdelta_main",
             "gm_weapons_rifles_g11",
             "gm_weapons_rifles_hk33",
             "gm_weapons_rifles_sg550",

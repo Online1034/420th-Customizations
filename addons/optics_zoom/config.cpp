@@ -1,14 +1,14 @@
 class CfgPatches {
     class fdelta_optics_zoom {
-        name = "420th Customizations - Enhanced Optics Magnification";
+        name = "420th Customizations - Enhanced Optics Magnification - Vanilla";
         author = "thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
-            "fdelta_main",
+            "A3_Data_F_Decade_Loadorder",
         };
-        skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 0;
         skipWhenAnyAddonPresent[] = {
             "A3RO_A3", // Conflicts with A3RO - Arma 3 Realism Overhaul
         };

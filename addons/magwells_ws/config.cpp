@@ -2,15 +2,15 @@
 
 class CfgPatches {
     class fdelta_magwells_ws {
-        name = "420th Customizations - Western Sahara Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Western Sahara";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
             "fdelta_magwells",
-            "fdelta_main",
             "Weapons_F_lxWS_Rifles",
         };
         skipWhenMissingDependencies = 1;

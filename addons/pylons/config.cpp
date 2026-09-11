@@ -1,13 +1,12 @@
 class CfgPatches {
     class fdelta_pylons {
-        name = "420th Customizations - Pylons Compatibility";
+        name = "420th Customizations - Pylons Compatibility - Vanilla";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
-            "fdelta_main",
         };
         skipWhenMissingDependencies = 0;
 
@@ -1615,10 +1614,10 @@ class CfgVehicles {
             };
         };
         class pilotCamera {
-            maxTurn = 160;
-            minTurn = -160;
-            maxElev = 120;
-        };        
+            maxTurn = 160; // 120
+            minTurn = -160; // -120
+            maxElev = 120; // 90
+        };
     };
     class VTOL_02_base_F;
     class VTOL_02_infantry_base_F : VTOL_02_base_F {

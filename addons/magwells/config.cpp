@@ -2,14 +2,14 @@
 
 class CfgPatches {
     class fdelta_magwells {
-        name = "420th Customizations - Magazine Compatibility";
+        name = "420th Customizations - Magazine Compatibility - Vanilla (and CBA)";
         author = "ol1034, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",
             "cba_jam",
-            "fdelta_main",
         };
         skipWhenMissingDependencies = 1;
         skipWhenAnyAddonPresent[] = {"vmagcompatibility"};

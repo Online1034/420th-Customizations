@@ -1,13 +1,12 @@
 class CfgPatches {
     class fdelta_he_rebalance {
-        name = "420th Customizations - Vanilla HE Rebalance";
+        name = "420th Customizations - HE Rebalance - Vanilla";
         author = "Seathre0420, thegamecracks";
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.22;
         requiredAddons[] = {
             "A3_Data_F_Decade_Loadorder",
-            "fdelta_main",
         };
         skipWhenMissingDependencies = 0;
 
